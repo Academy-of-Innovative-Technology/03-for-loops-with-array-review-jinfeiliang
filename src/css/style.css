@@ -1,0 +1,30 @@
+body {
+	background-color: #121212;
+	color: #f8f9fa;
+	padding-top: 40px;
+}
+
+.card {
+	background-color: #1f1f1f;
+	border: 1px solid #333;
+}
+
+.box {
+	min-height: 40px;
+	padding: 10px;
+	border-radius: 0.5rem;
+	background-color: #262626;
+	color: #f8f9fa;
+	font-family: monospace;
+	word-wrap: break-word;
+}
+
+.section-title {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+
+.card-title, .section-title, .mb-1  {
+		color: gray;
+}

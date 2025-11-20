@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/.copilotignore": true
+    },
+    "github.copilot.completions.disable": {
+        "*": true    
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.inlineSuggest.enable": false,
+    "workbench.startupEditor": "README.md",
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "workbench.commandPalette.showAskInChat": false
+}
