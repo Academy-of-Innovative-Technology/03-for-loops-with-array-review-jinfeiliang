@@ -38,6 +38,7 @@ function addUnshift(){
     let Formatted_Value = String(Value);
     arrayItems.unshift(Formatted_Value);
     Update_Current();
+    Output_DOM.innerHTML = `The element '${Value}' has been added at the start`;
 }
 function addPush(){
     let Value = document.querySelector("#addValue").value;
@@ -48,16 +49,19 @@ function addPush(){
     let Formatted_Value = String(Value);
     arrayItems.push(Formatted_Value);
     Update_Current();
+    Output_DOM.innerHTML = `The element '${Value}' has been added at the end`;
 }
 
 
 function removeShift(){
-    arrayItems.shift();
+    let Shift = arrayItems.shift();
     Update_Current();
+    Output_DOM.innerHTML = `The element '${Shift}' has been deleted`;
 }
 function removePop(){
-    arrayItems.pop();
+    let Pop = arrayItems.pop();
     Update_Current();
+    Output_DOM.innerHTML = `The element '${Pop}' has been deleted`;
 }
 
 
