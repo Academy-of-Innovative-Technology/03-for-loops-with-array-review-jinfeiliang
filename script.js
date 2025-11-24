@@ -29,23 +29,23 @@ function showReverse(){
 
 
 function addUnshift(){
-    let Value = document.querySelector("#addValue").Value;
+    let Value = document.querySelector("#addValue").value;
     console.log(Value);
     if (!Value || Value === undefined || Value === null || Value === NaN){
         console.log("Error: Argument Missing");
         return;
     }
-    let Formatted_Value = toString(Value);
+    let Formatted_Value = String(Value);
     arrayItems.unshift(Formatted_Value);
     Update_Current();
 }
 function addPush(){
-    let Value = document.querySelector("#addValue").Value;
+    let Value = document.querySelector("#addValue").value;
     if (!Value || Value === undefined || Value === null || Value === NaN){
         console.log("Error: Argument Missing");
         return;
     }
-    let Formatted_Value = toString(Value);
+    let Formatted_Value = String(Value);
     arrayItems.push(Formatted_Value);
     Update_Current();
 }
