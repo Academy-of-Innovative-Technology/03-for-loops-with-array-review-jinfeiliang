@@ -69,8 +69,8 @@ Your webpage must:
 
 ## ✔ Completion Checklist
 
-- [ ] At least **6 functions created**
-- [ ] Forward for-loop works correctly
-- [ ] Reverse for-loop works correctly
-- [ ] push, pop, shift, and unshift used properly
-- [ ] Output displays correctly
+- [Y] At least **6 functions created**
+- [Y] Forward for-loop works correctly
+- [Y] Reverse for-loop works correctly
+- [Y] push, pop, shift, and unshift used properly
+- [Y] Output displays correctly
