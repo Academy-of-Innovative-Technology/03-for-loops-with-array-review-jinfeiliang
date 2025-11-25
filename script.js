@@ -33,6 +33,7 @@ function addUnshift(){
     console.log(Value);
     if (!Value || Value === undefined || Value === null || Value === NaN){
         console.log("Error: Argument Missing");
+        alert("Error: Argument Missing");
         return;
     }
     let Formatted_Value = String(Value);
@@ -44,6 +45,7 @@ function addPush(){
     let Value = document.querySelector("#addValue").value;
     if (!Value || Value === undefined || Value === null || Value === NaN){
         console.log("Error: Argument Missing");
+        alert("Error: Argument Missing");
         return;
     }
     let Formatted_Value = String(Value);
